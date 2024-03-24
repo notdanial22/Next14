@@ -1,0 +1,28 @@
+.Link {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px 20px;
+}
+.Link:hover {
+  background-color: var(--text);
+  font-weight: bold;
+  color: var(--black);
+  border-radius: 30px;
+}
+
+.active {
+  background-color: var(--text);
+  padding: 10px 20px;
+  font-weight: bold;
+  color: var(--black);
+  border-radius: 30px;
+}
+.logout {
+  padding: 10px 10px;
+  cursor: pointer;
+}
+.drawer {
+  background-color: var(--bg);
+  height: 100vh;
+  color: white;
+}
