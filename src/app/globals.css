@@ -2,9 +2,9 @@
   --bg: #0d0c22;
   --bgSoft: #2d2b42;
   --text: white;
-  --textSoft : #e5e5e5;
+  --textSoft: #e5e5e5;
   --btn: #3673fd;
-  --black : #000000;
+  --black: #000000;
 }
 
 body {
@@ -16,4 +16,20 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.child-container {
+  background-color: var(--bgSoft);
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  margin: auto;
+}
+@media screen and (max-width: 500px) {
+  .child-container {
+    background-color: var(--bgSoft);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: auto;
+  }
 }
