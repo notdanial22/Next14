@@ -20,7 +20,13 @@ export default function homePage() {
             >
               Learn more
             </Button>
-            <Button variant='contained' color='secondary' disableElevation>
+            <Button
+              variant='contained'
+              color='secondary'
+              disableElevation
+              disableRipple
+              disableTouchRipple
+            >
               Contact
             </Button>
           </Box>
@@ -28,7 +34,21 @@ export default function homePage() {
         </Box>
       </Grid>
       <Grid item xs={12} md={6}>
-        <Box display='flex' position='relative' height='100%'>
+        <Box
+          display='flex'
+          position='relative'
+          height='100%'
+          sx={{
+            height: {
+              xs: '300px',
+              sm: '350px',
+              md: '100%',
+              lg: '100%',
+              xl: '100%',
+            },
+            width: '100%',
+          }}
+        >
           <Image src='/hero.gif' alt='' fill sizes='fill' priority={false} />
         </Box>
       </Grid>

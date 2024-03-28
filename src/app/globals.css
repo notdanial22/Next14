@@ -21,7 +21,6 @@ body {
   display: flex;
   justify-content: center;
   width: 80vw;
-  height: 84vh;
   margin: auto;
 }
 @media screen and (max-width: 500px) {
