@@ -18,6 +18,11 @@ const theme = createTheme({
       xl: 1920,
     },
   },
+  palette: {
+    secondary: {
+      main: '#ffffff',
+    },
+  },
 })
 
 export default function RootLayout({
