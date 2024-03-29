@@ -9,7 +9,7 @@ export default function homePage() {
           <Typography variant='h1'>Creative Thoughts Agency.</Typography>
           <br />
           <Typography>
-            Discover the harmony of nature's symphony as gentle streams serenade
+             Discover the harmony of nature's symphony as gentle streams serenade
             the forest floor, inviting you to immerse yourself in tranquility.{' '}
           </Typography>
           <Box display='flex' flexDirection='row'>
