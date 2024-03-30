@@ -17,6 +17,11 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.footer-container {
+  width: 80vw;
+  margin: 40px auto;
+}
 .child-container {
   display: flex;
   justify-content: center;
