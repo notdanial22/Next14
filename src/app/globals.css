@@ -21,6 +21,7 @@ body {
 .footer-container {
   width: 80vw;
   margin: 40px auto;
+  color: gray;
 }
 .child-container {
   display: flex;
@@ -34,5 +35,10 @@ body {
     justify-content: center;
     width: 100vw;
     margin: auto;
+  }
+  .footer-container {
+    width: 100vw;
+    margin: 40px auto;
+    color: gray;
   }
 }
