@@ -19,8 +19,16 @@ const theme = createTheme({
     },
   },
   palette: {
+    primary: {
+      main: '#155dd1',
+    },
     secondary: {
       main: '#ffffff',
+    },
+  },
+  typography: {
+    h4: {
+      fontWeight: 750,
     },
   },
 })
