@@ -1,5 +1,6 @@
 import { Box, Button, Grid, Typography } from '@mui/material'
 import Image from 'next/image'
+import Footer from '@/components/footer'
 
 export default function homePage() {
   return (
@@ -9,7 +10,7 @@ export default function homePage() {
           <Typography variant='h1'>Creative Thoughts Agency.</Typography>
           <br />
           <Typography>
-             Discover the harmony of nature's symphony as gentle streams serenade
+            Discover the harmony of nature's symphony as gentle streams serenade
             the forest floor, inviting you to immerse yourself in tranquility.{' '}
           </Typography>
           <Box display='flex' flexDirection='row'>
@@ -51,6 +52,9 @@ export default function homePage() {
         >
           <Image src='/hero.gif' alt='' fill sizes='fill' priority={false} />
         </Box>
+      </Grid>
+      <Grid item xs={12}>
+        <Footer />
       </Grid>
     </Grid>
   )

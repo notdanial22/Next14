@@ -18,11 +18,6 @@ body {
   box-sizing: border-box;
 }
 
-.footer-container {
-  width: 80vw;
-  margin: 40px auto;
-  color: gray;
-}
 .child-container {
   display: flex;
   justify-content: center;
@@ -32,13 +27,9 @@ body {
 @media screen and (max-width: 500px) {
   .child-container {
     display: flex;
+    flex: 1;
     justify-content: center;
     width: 100vw;
     margin: auto;
-  }
-  .footer-container {
-    width: 100vw;
-    margin: 40px auto;
-    color: gray;
   }
 }

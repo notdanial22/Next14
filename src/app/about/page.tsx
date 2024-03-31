@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import styles from './about.module.css'
+import { Grid } from '@mui/material'
 
 export default function aboutPage() {
   return (
-    <div className={styles.imgContainer}>
-      <Image src='/about.png' alt='' fill></Image>
-    </div>
+    <Grid container>
+      <Grid item xs={12}></Grid>
+      <Grid item xs={12}></Grid>
+    </Grid>
   )
 }

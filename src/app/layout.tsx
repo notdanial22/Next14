@@ -37,9 +37,6 @@ export default function RootLayout({
           <Navbar />
           <br />
           <div className='child-container'>{children}</div>
-          <div className='footer-container'>
-            <Footer />
-          </div>
         </body>
       </html>
     </ThemeProvider>
