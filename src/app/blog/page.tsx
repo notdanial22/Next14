@@ -1,3 +1,12 @@
+import Card from '@/components/card'
+import { Box } from '@mui/material'
 export default function blogPage() {
-  return <div>Blog page</div>
+  return (
+    <Box>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </Box>
+  )
 }
